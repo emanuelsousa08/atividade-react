@@ -23,3 +23,19 @@ Este projeto demonstra a configuração de rotas com React Router, criação de 
    `npm install`  
 3. Rode em modo dev  
    `npm run dev`
+## Estrutura Básica
+
+.
+└── src
+    ├── components
+    │   ├── Header.jsx
+    │   ├── Footer.jsx
+    │   └── Sidebar.jsx
+    ├── pages
+    │   ├── Home.jsx
+    │   ├── About.jsx
+    │   ├── Contact.jsx
+    │   ├── UserProfile.jsx
+    │   └── NotFound.jsx
+    ├── App.jsx
+    └── index.js
