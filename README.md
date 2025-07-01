@@ -23,5 +23,3 @@ Este projeto demonstra a configuração de rotas com React Router, criação de 
    `npm install`  
 3. Rode em modo dev  
    `npm run dev`
-
-## Estrutura básica
