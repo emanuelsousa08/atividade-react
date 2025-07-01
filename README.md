@@ -24,7 +24,7 @@ Este projeto demonstra a configuração de rotas com React Router, criação de 
 3. Rode em modo dev  
    `npm run dev`
 ## Estrutura Básica
-
+```
 .
 └── src
     ├── components
@@ -39,3 +39,5 @@ Este projeto demonstra a configuração de rotas com React Router, criação de 
     │   └── NotFound.jsx
     ├── App.jsx
     └── index.js
+
+```
