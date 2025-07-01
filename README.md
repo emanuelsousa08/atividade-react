@@ -1,17 +1,27 @@
-# Aula PrimeReact | FakeStoreAPI + axios
+# Atividade React Router
 
-Prática da aula de Primereact com axios e fakestoreapi
+Este projeto demonstra a configuração de rotas com React Router, criação de páginas, layout compartilhado, lazy loading e tratamento de rotas inválidas e parâmetros de URL.
 
-## Bibliotecas
-Foram usadas as seguintes bibliotecas até o momento:
+## Objetivo
+- Aprender a configurar rotas usando React Router
+- Criar componentes de página e layout comum (Header/Footer/Sidebar)
+- Melhorar performance com `React.Suspense` e `lazy`
+- Tratar rotas 404 e usar parâmetros de URL (`/user/:id`)
 
-- PrimeReact
-- PrimeFlex
-- PrimeIcons
-- Axios
-- React Router DOM
+## Funcionalidades
+- Páginas: Home, About, Contact, UserProfile, NotFound
+- Navegação via `<Link>` no Header
+- Layout compartilhado (Header, Footer, Sidebar)
+- Lazy loading de páginas
+- Rota dinâmica `/user/:id`
+- Página 404 para rotas não definidas
 
-## Instruções de uso
+## Instalação e uso
+1. Clone  
+   `git clone https://github.com/emanuelsousa08/atividade-react.git`  
+2. Instale dependências  
+   `npm install`  
+3. Rode em modo dev  
+   `npm run dev`
 
-- Clone esse repositório através do link e execute o seguinte comando para instalar
-as bibliotecas via terminal: ``` npm i primereact primeflex primeicons axios react-router-dom ```.
+## Estrutura básica
